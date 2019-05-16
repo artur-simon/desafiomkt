@@ -11,9 +11,9 @@ Você deverá utilizar JavaScript para fazer a ordem de listagem da tabela funci
 
 ## Sites e artigos que podem te ajudar:
 Se você tem dificuldades com desenvolvimento web, JavaScript, PHP e/ou git, esses são alguns links que podem te ajudar a aprender mais e resolver o desafio:
-- Try git - Não sabe o que é git e/ou como funciona? Aqui é um ótimo lugar para começar!
-- Code Academy - Aqui você encontra cursos gratuitos de HTML/CSS/JS/PHP entre outros! Até existem sites com conteúdos mais especializados no assunto, mas esse é uma boa introdução aos temas.
-- CSS Tricks - O melhor portal de notícias e boas práticas de CSS da internet, de brinde tem alguns artigos também de HTML/JS entre outros.
-- Chamar API em php - Já conhece um pouco de PHP mas não sabe como chamar a API do desafio em PHP? Isso vai te ajudar.
-- Documentação JS da mozilla - A mozilla tem uma documentação e guias fantásticos que ajudam do mais básico ao mais avançado do Javascript, vale sempre ter o link do MDN na mão.
-- Stack Overflow - E caso você tenha alguma dúvida em relação a qualquer coisa em qualquer linguagem de programação ou marcação, procurando bem o stack overflow tem as respostas para você.
+- [Try git](https://try.github.io/levels/1/challenges/1) - Não sabe o que é git e/ou como funciona? Aqui é um ótimo lugar para começar!
+- [Code Academy](https://www.codecademy.com/) - Aqui você encontra cursos gratuitos de HTML/CSS/JS/PHP entre outros! Até existem sites com conteúdos mais especializados no assunto, mas esse é uma boa introdução aos temas.
+- [CSS Tricks](https://css-tricks.com/) - O melhor portal de notícias e boas práticas de CSS da internet, de brinde tem alguns artigos também de HTML/JS entre outros.
+- [Chamar API em php](https://github.com/danrovito/pokephp) - Já conhece um pouco de PHP mas não sabe como chamar a API do desafio em PHP? Isso vai te ajudar.
+- [Documentação JS da mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction) - A mozilla tem uma documentação e guias fantásticos que ajudam do mais básico ao mais avançado do Javascript, vale sempre ter o link do MDN na mão.
+- [Stack Overflow](https://stackoverflow.com/) - E caso você tenha alguma dúvida em relação a qualquer coisa em qualquer linguagem de programação ou marcação, procurando bem o stack overflow tem as respostas para você.
