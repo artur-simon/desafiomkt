@@ -1,7 +1,31 @@
+<?php
+
+  $url_base = 'https://pokeapi.co/api/v2/pokemon/';//endereço base da api
+  $index = 1;
+  while($index < 10)//O desafio especifica 9 dos pokemons
+  {
+    $pokeData = file_get_contents($url_base.$index);
+    $pokeObject = json_decode($pokeData);
+    console_log($pokeData);
+    $index++;
+  }
+?>
+
+<!--  Logging (estou testando as coisas) -->
+<?php
+function console_log( $data ){
+  echo '<script>';
+  echo 'console.log('. json_encode( $data ) .')';
+  echo '</script>';
+}
+?>
+
+<script type="text/javascript">
+</script>
+
 <!DOCTYPE html>
 <html lang="pt">
 <head>
-
   <!-- Meta tags -->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
@@ -15,11 +39,12 @@
 
   <!-- Title -->
   <title>Desafio 1</title>
-
 </head>
 <body>
+
 <h1>A tabela Pokémon</h1>
-<table>
+
+<table id="tabela-pokedex">
   <tr>
     <th colspan="2"><a href="#" class="is-selected">Pokémon</a></th>
     <th><a href="#" >Altura</a></th>
@@ -36,9 +61,6 @@
     <!-- Dentro de tipo colocar dentro do mesmo TD todos os tipos que o Pokémon pode ter -->
     <td>Tipo do Pokémon</td>
   </tr>
-
 </table>
-
 </body>
-
 </html>
