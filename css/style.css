@@ -6,6 +6,9 @@
   margin-top: 150px;
 }
 
+section.showcase {
+    margin-top: 2.5rem;
+}
 
 /* Header */
 header {
@@ -73,13 +76,15 @@ th, td{
   padding: 0.75em 2em;
 }
 
-tr:nth-child(even) {
+tr:nth-child(even){
     background-color: rgb(235,235,235);
 }
-tr:nth-child(odd) {
+
+tr:nth-child(odd){
     background-color: white;
 }
-th {
+
+th{
     font-size: 1.25em;
 }
 
@@ -102,4 +107,42 @@ a.is-selected{
 
 a.is-selected:after{
   display:none;
+}
+
+/* Main */
+.main-content {
+  margin-bottom: 4rem;
+}
+.topic {
+  margin-bottom: 3rem;
+}
+
+h3.topic-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.item {
+  margin-bottom: -1rem;
+}
+.item > * {
+  margin-bottom: 1.5rem !important;
+}
+.topic {
+    margin-bottom: 3rem;
+}
+
+.nes-container.member-card {
+    display: flex;
+    padding: 1rem 1.5rem;
+    width: 470px;
+    margin-bottom: 2rem;
+}
+
+.member-card .avatar > img {
+    display: block;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
